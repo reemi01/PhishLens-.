@@ -1,4 +1,5 @@
 # PhishLens 🔐
+
 ### Rule-Based Phishing Detection & SOC Triage Tool
 
 PhishLens is a Python-based security tool designed to assess suspicious messages and URLs using rule-based risk scoring and optional VirusTotal integration. It provides risk classifications and investigation features to support basic Security Operations Center (SOC) triage workflows.
@@ -66,6 +67,10 @@ PhishLens/
 ├── test_phishlens.py
 ├── requirements.txt
 ├── SOC_Analysis_Report.md
+├── screenshots/
+│   ├── main-interface.png
+│   ├── analysis-results.png
+│   └── soc-dashboard.png
 └── .gitignore
 ```
 
@@ -98,9 +103,16 @@ This project is intended for educational and defensive cybersecurity purposes. A
 
 [GitHub Profile](https://github.com/reemi01)
 
-
 ## Screenshots
 
 ### Main Interface
 
 ![PhishLens Main Interface](screenshots/main-interface.png)
+
+### Analysis Results
+
+![PhishLens Analysis Results](screenshots/analysis-results.png)
+
+### SOC Dashboard
+
+![PhishLens SOC Dashboard](screenshots/soc-dashboard.png)
